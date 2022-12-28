@@ -20,25 +20,25 @@ export default defineConfig({
 				"orientation": "any",
 				"icons": [
 				  {
-					"src": "src/images/manifest-icon-192.maskable.png",
+					"src": "assets/manifest-icon-192.maskable.png",
 					"sizes": "192x192",
 					"type": "image/png",
 					"purpose": "any"
 				  },
 				  {
-					"src": "src/images/manifest-icon-192.maskable.png",
+					"src": "assets/manifest-icon-192.maskable.png",
 					"sizes": "192x192",
 					"type": "image/png",
 					"purpose": "maskable"
 				  },
 				  {
-					"src": "src/images/manifest-icon-512.maskable.png",
+					"src": "assets/manifest-icon-512.maskable.png",
 					"sizes": "512x512",
 					"type": "image/png",
 					"purpose": "any"
 				  },
 				  {
-					"src": "src/images/manifest-icon-512.maskable.png",
+					"src": "assets/manifest-icon-512.maskable.png",
 					"sizes": "512x512",
 					"type": "image/png",
 					"purpose": "maskable"
