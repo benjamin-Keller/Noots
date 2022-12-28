@@ -20,25 +20,25 @@ export default defineConfig({
 				"orientation": "any",
 				"icons": [
 				  {
-					"src": "https://imgur.com/lDjNKXB",
+					"src": "https://imgur.com/lDjNKXB.png",
 					"sizes": "192x192",
 					"type": "image/png",
 					"purpose": "any"
 				  },
 				  {
-					"src": "https://imgur.com/lDjNKXB",
+					"src": "https://imgur.com/lDjNKXB.png",
 					"sizes": "192x192",
 					"type": "image/png",
 					"purpose": "maskable"
 				  },
 				  {
-					"src": "https://imgur.com/KrNaOMv",
+					"src": "https://imgur.com/KrNaOMv.png",
 					"sizes": "512x512",
 					"type": "image/png",
 					"purpose": "any"
 				  },
 				  {
-					"src": "https://imgur.com/KrNaOMv",
+					"src": "https://imgur.com/KrNaOMv.png",
 					"sizes": "512x512",
 					"type": "image/png",
 					"purpose": "maskable"
