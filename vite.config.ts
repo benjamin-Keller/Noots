@@ -32,6 +32,7 @@ export default defineConfig({
 					purpose: "any maskable"
 				  },
 				],
+				prefer_related_applications: true
 			  }
 			})
 	],
