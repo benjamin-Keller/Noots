@@ -11,7 +11,7 @@ export default defineConfig({
 				name: "Noot Notes | Note taking app",
 				short_name: "Noot Notes",
 				start_url: "/",
-				display: "standalone",
+				display: "minimal-ui",
 				description: "Note taking application in the style of a cute penguin",
 				lang: "en",
 				dir: "ltr",
