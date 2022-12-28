@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./src/images/penguin.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Noot | Note taking app</title>
-    <style>
-      .penguin {
-        background-image: url('./src/images/penguin.png');
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 349px;
-        height: 283px;
-        object-fit: scale-down;
-        z-index: -1;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="root"></div>
-    <div class="penguin"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/png" href="./src/images/penguin.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Noot Notes | Note taking app</title>
+		<style>
+			.penguin {
+				background-image: url('./src/images/penguin.png');
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				width: 349px;
+				height: 283px;
+				object-fit: scale-down;
+				z-index: -1;
+			}
+		</style>
+		<link rel="manifest" href="manifest.json" />
+		<script>navigator.serviceWorker.register("service-worker.js")</script> 
+		
+	</head>
+	<body>
+		<div id="root"></div>
+		<div class="penguin"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
 </html>
