@@ -20,25 +20,25 @@ export default defineConfig({
 				"orientation": "any",
 				"icons": [
 				  {
-					"src": "manifest-icon-192.maskable.png",
+					"src": "https://imgur.com/lDjNKXB",
 					"sizes": "192x192",
 					"type": "image/png",
 					"purpose": "any"
 				  },
 				  {
-					"src": "manifest-icon-192.maskable.png",
+					"src": "https://imgur.com/lDjNKXB",
 					"sizes": "192x192",
 					"type": "image/png",
 					"purpose": "maskable"
 				  },
 				  {
-					"src": "manifest-icon-512.maskable.png",
+					"src": "https://imgur.com/KrNaOMv",
 					"sizes": "512x512",
 					"type": "image/png",
 					"purpose": "any"
 				  },
 				  {
-					"src": "manifest-icon-512.maskable.png",
+					"src": "https://imgur.com/KrNaOMv",
 					"sizes": "512x512",
 					"type": "image/png",
 					"purpose": "maskable"
