@@ -42,7 +42,12 @@ export function NoteList({ availableTags, notes, onDeleteTag, onUpdateTag }: Not
     return (
         <>
             <Row className="align-items-center mb-4">
-                <Col><h1>Noot Notes | Note taking app</h1></Col>
+                <Col>
+                    <span className="d-inline">
+                        <h1 style={{marginBottom: "-10px"}}>Noot Notes</h1>
+                        <span style={{fontSize: "small"}}>Note taking app</span>
+                    </span>
+                </Col>
                 <Col xs="auto">
                     <Stack gap={2} direction="horizontal">
                         <Link to="/new">
